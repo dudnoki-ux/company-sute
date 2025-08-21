@@ -1,179 +1,373 @@
-<!doctype html><html lang="ko">
+<!DOCTYPE html>
+<html lang="ko">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>주식회사 이든웍스 · 금융 SI/SM</title>
-<link rel="stylesheet" href="/styles.css"><link rel="icon" href="/assets/logo.png">
-<meta name="description" content="금융권 SI/SM · 전자계약/전자근로 · 시금고 시스템 구축/운영 — 주식회사 이든웍스">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>주식회사 이든웍스 - 금융·공공 SI/SM 전문기업</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="오름 이든웍스.png">
+    <meta name="description" content="금융·공공 SI/SM 전문기업 이든웍스 - 전자계약, 전자근로, 시금고 시스템 구축/운영">
 </head>
 <body>
-  <div class="topbar">
-    <div class="inner container">
-      <div class="logo"><img src="/assets/logo.png" alt="Eden Works"><span>주식회사 이든웍스</span></div>
-      <nav class="subnav">
-        <a class="anchor-link active" href="#overview">서비스 소개</a>
-        <a class="anchor-link" href="#features">핵심 기능</a>
-        <a class="anchor-link" href="#usecases">적용 분야</a>
-        <a class="anchor-link" href="#process">진행 절차</a>
-        <a class="anchor-link" href="#pricing">운영/지원</a>
-        <a class="anchor-link" href="#contact">문의</a>
-      </nav>
-    </div>
-  </div>
-
-  <section class="hero">
-    <div class="container">
-      <span class="badge">FINTECH · SI/SM · GOVERNMENT</span>
-      <h1>금융권 SI/SM · 운영/고도화까지 한 번에</h1>
-      <p class="lead">이든웍스는 솔루션 판매사가 아니라 프로젝트 파트너입니다. 은행권 표준/보안 규정에 맞춘 설계–개발–운영을 수행하며, 전자계약·전자근로·시금고 등 다수의 금융 프로젝트를 통해 안정성과 속도를 검증했습니다.</p>
-      <div style="display:flex;gap:12px;flex-wrap:wrap">
-        <a class="cta" href="#contact">네이버폼으로 상담 요청</a>
-        <a class="cta secondary" href="#features">핵심 기능 보기</a>
-      </div>
-      <div class="kpis">
-        <div class="kpi"><div style="font-size:26px;font-weight:800;color:#0f766e">4~8주</div><div class="muted">평균 구축 기간</div></div>
-        <div class="kpi"><div style="font-size:26px;font-weight:800;color:#0f766e">보안/권한</div><div class="muted">은행권 표준 반영</div></div>
-        <div class="kpi"><div style="font-size:26px;font-weight:800;color:#0f766e">운영</div><div class="muted">SLA/모니터링</div></div>
-      </div>
-    </div>
-  </section>
-
-  <div class="sticky-anchors">
-    <div class="container">
-      <a class="anchor-link active" href="#overview">서비스 소개</a>
-      <a class="anchor-link" href="#features">핵심 기능</a>
-      <a class="anchor-link" href="#usecases">적용 분야</a>
-      <a class="anchor-link" href="#process">진행 절차</a>
-      <a class="anchor-link" href="#pricing">운영/지원</a>
-      <a class="anchor-link" href="#contact">문의</a>
-    </div>
-  </div>
-
-  <section id="overview" class="section">
-    <div class="container">
-      <h2>서비스 소개</h2>
-      <div class="grid">
-        <div class="card"><h3>금융 SI/SM</h3><p>표준/보안 준수, 배포/권한/로그/감사 체계. 운영 고도화까지 지원합니다.</p></div>
-        <div class="card"><h3>전자계약 · 전자근로</h3><p>전자서명·보관·결재선·권한 설계. 근로/계약 템플릿과 이력 관리.</p></div>
-        <div class="card"><h3>시금고 시스템</h3><p>지자체/기관 시금고 관리 및 정산 체계 구축 경험.</p></div>
-      </div>
-      <div class="highlight" style="margin-top:18px">
-        <div class="notice">※ 표기된 금융사/기관명은 파트너십 또는 수행 경험을 의미합니다.</div>
-        <div style="margin-top:10px">
-          <span class="partner">농협은행</span>
-          <span class="partner">우리은행</span>
-          <span class="partner">기업은행</span>
-          <span class="partner">시금고 구축 경험</span>
+    <!-- 헤더 -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="오름 이든웍스.png" alt="이든웍스 로고">
+                    <span>주식회사 이든웍스</span>
+                </div>
+                <nav class="nav">
+                    <a href="#future">The Future</a>
+                    <a href="#services">Services</a>
+                    <a href="#about">기업정보</a>
+                    <a href="#contact">문의하기</a>
+                </nav>
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
+    </header>
 
-  <section id="features" class="section">
-    <div class="container">
-      <h2>핵심 기능</h2>
-      <div class="grid">
-        <div class="card"><h3>권한/조직/결재선</h3><p>직무·조직별 권한, 결재라인, 역할 기반 접근제어(RBAC).</p></div>
-        <div class="card"><h3>전자서명·원본보관</h3><p>서명 이력 및 감사추적, 문서 원본 보관/폐기 정책.</p></div>
-        <div class="card"><h3>로그/모니터링</h3><p>이상 징후 탐지, 알림, 대시보드, 백업·복구 전략.</p></div>
-        <div class="card"><h3>성능/안정성</h3><p>부하 분산, 장애 대응 Runbook, 무중단 배포 전략.</p></div>
-        <div class="card"><h3>보안 준수</h3><p>개인정보·접근통제·암호화 등 내부 보안 가이드 반영.</p></div>
-        <div class="card"><h3>표준화/모듈화</h3><p>공통 모듈/템플릿으로 빠른 구축과 유지보수 용이성.</p></div>
-      </div>
-    </div>
-  </section>
-
-  <section id="usecases" class="section">
-    <div class="container">
-      <h2>적용 분야</h2>
-      <table class="table">
-        <tr><th>분야</th><th>예시</th></tr>
-        <tr><td>금융</td><td>전자근로/계약, 여신·심사 보조, 내부관리 대시보드</td></tr>
-        <tr><td>공공/지자체</td><td>시금고 관리, 정산/보고 체계</td></tr>
-        <tr><td>기업</td><td>인사/계약/자산 문서 자동화, 결재선 관리</td></tr>
-      </table>
-    </div>
-  </section>
-
-  <section id="process" class="section">
-    <div class="container">
-      <h2>진행 절차</h2>
-      <div class="grid">
-        <div class="card step"><span class="no">1</span><div><b>요구 분석</b><div class="muted">업무 흐름, 권한·보안, 문서/데이터 정합성 정의</div></div></div>
-        <div class="card step"><span class="no">2</span><div><b>설계/개발</b><div class="muted">API/DB, 전자서명/감사, UI/로그, 테스트/문서</div></div></div>
-        <div class="card step"><span class="no">3</span><div><b>도입/이관</b><div class="muted">배포/전환, 교육, 초기 운영 지원</div></div></div>
-        <div class="card step"><span class="no">4</span><div><b>운영/고도화</b><div class="muted">모니터링, SLA, 성능 개선 및 기능 확장</div></div></div>
-      </div>
-    </div>
-  </section>
-
-  <section id="pricing" class="section">
-    <div class="container">
-      <h2>운영/지원 범위</h2>
-      <div class="grid">
-        <div class="card"><h3>기본</h3><ul><li>모니터링/장애 대응</li><li>월 보고</li><li>경미 수정</li></ul></div>
-        <div class="card"><h3>확장</h3><ul><li>SLA(응답/복구)</li><li>성능/보안 점검</li><li>개선 백로그 운영</li></ul></div>
-        <div class="card"><h3>프로젝트</h3><ul><li>대규모 기능 추가</li><li>UI/업무흐름 개편</li><li>데이터 마이그레이션</li></ul></div>
-      </div>
-      <p class="notice" style="margin-top:10px">세부 범위/견적은 요구사항 논의 후 산정합니다.</p>
-    </div>
-  </section>
-
-  
-<section id="contact" class="section">
-  <div class="container">
-    <h2>문의하기</h2>
-    <p class="muted">아래 양식을 제출하면 <b>dev@eden-works.co.kr</b>로 메일이 전달됩니다. (Formspree 사용)</p>
-    <div class="card" style="max-width:720px">
-      <form action="https://formspree.io/f/your-endpoint-id" method="POST">
-        <input type="text" name="_honey" style="display:none">
-        <input type="hidden" name="_redirect" value="https://eden-works.co.kr/?sent=1#contact">
-        <input type="hidden" name="subject" value="이든웍스 홈페이지 문의">
-        <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
-          <label>회사/기관명<br><input name="org" required style="width:100%;padding:10px;border:1px solid #e5e7eb;border-radius:10px"></label>
-          <label>담당자 이름<br><input name="name" required style="width:100%;padding:10px;border:1px solid #e5e7eb;border-radius:10px"></label>
-          <label>연락처<br><input name="phone" required style="width:100%;padding:10px;border:1px solid #e5e7eb;border-radius:10px"></label>
-          <label>이메일<br><input name="email" type="email" required style="width:100%;padding:10px;border:1px solid #e5e7eb;border-radius:10px"></label>
+    <!-- 메인 히어로 섹션 -->
+    <section class="hero">
+        <div class="hero-background">
+            <img src="main.jpg" alt="메인 배경 이미지">
+            <div class="hero-overlay"></div>
         </div>
-        <label style="display:block;margin-top:12px">요청사항<br>
-          <textarea name="message" rows="6" style="width:100%;padding:10px;border:1px solid #e5e7eb;border-radius:10px"></textarea>
-        </label>
-        <button class="cta" type="submit" style="margin-top:12px">보내기</button>
-        <p class="small" style="margin-top:10px">이메일 앱으로 보내고 싶다면 <a href="mailto:dev@eden-works.co.kr?subject=%EC%9D%B4%EB%93%A0%EC%9B%8D%EC%8A%A4%20%EB%AC%B8%EC%9D%98&body=%ED%9A%8C%EC%82%AC/%EA%B8%B0%EA%B4%80%3A%0A%EB%8B%B4%EB%8B%B9%EC%9E%90%3A%0A%EC%97%B0%EB%9D%BD%EC%B2%98%3A%0A%EC%9A%94%EC%B2%AD%EC%82%AC%ED%95%AD%3A%0A">여기를 클릭</a>.</p>
-      </form>
-    </div>
-    <div id="sent-ok" class="notice" style="display:none;margin-top:12px">문의가 접수되었습니다. 1영업일 내 회신드릴게요.</div>
-  </div>
-</section>
-<script>
-  try {
-    const url=new URL(window.location.href);
-    if(url.searchParams.get('sent')==='1') document.getElementById('sent-ok').style.display='block';
-  } catch(e){}
-</script>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">FINANCIAL & PUBLIC SI/SM SPECIALIST</div>
+                <h1>금융·공공<br>SI/SM 전문기업</h1>
+                <p class="hero-description">
+                    이든웍스는 금융권 및 공공기관 시스템통합(SI)·시스템 운영/유지보수(SM) 전문 기업입니다.<br>
+                    표준 산출물 체계와 형상/품질/보안 관리 프로세스를 기반으로 요구사항 분석부터 운영까지<br>
+                    전 단계를 One-Team으로 제공합니다.
+                </p>
+                <div class="hero-cta">
+                    <a href="#contact" class="cta-primary">프로젝트 논의하기</a>
+                    <a href="#services" class="cta-secondary">서비스 보기</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-stats">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number">One-Team</div>
+                        <div class="stat-label">요구사항부터 운영까지</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">규정 준수</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">짧은</div>
+                        <div class="stat-label">구축 사이클</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Future 섹션 -->
+    <section id="future" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>The Future</h2>
+                <p class="section-subtitle">AI Transformation으로 만들어가는 미래</p>
+            </div>
+            <div class="future-content">
+                <div class="future-grid">
+                    <div class="future-text">
+                        <h3>AI Transformation (AX)</h3>
+                        <p>
+                            지금까지 수많은 기술 혁신이 기업 업무 환경을 변화시켜 왔으나, AI만큼 변화를 이끈 혁신은 없었습니다. 
+                            기업 환경에서 AI는 단순한 기술 도입을 넘어 비즈니스의 근본적인 변화를 이끄는 핵심 동력으로 자리 잡고 있습니다.
+                        </p>
+                        <p>
+                            에이전틱 AI와 AX가 만들어갈 미래 비즈니스 환경에서, 선도적 비전과 혁신 기술을 갖춘 파트너와 함께하는 
+                            기업만이 진정한 미래 경쟁력을 확보할 수 있습니다.
+                        </p>
+                        <div class="future-features">
+                            <div class="feature-item">
+                                <h4>AI 플랫폼</h4>
+                                <p>생성형 AI 기반 플랫폼으로 비즈니스 혁신 가속화</p>
+                            </div>
+                            <div class="feature-item">
+                                <h4>AI 컨설팅</h4>
+                                <p>기업 맞춤형 AI 도입 전략 및 전환 컨설팅</p>
+                            </div>
+                            <div class="feature-item">
+                                <h4>Virtual Factory</h4>
+                                <p>디지털 트윈 기반 스마트 팩토리 솔루션</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="future-image">
+                        <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="AI Transformation">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 회사 소개 섹션 -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>기업정보</h2>
+                <p class="section-subtitle">금융·공공 분야 SI/SM에 특화된 전문팀</p>
+            </div>
+            <div class="about-content">
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>
+                            이든웍스는 금융·공공 분야 SI/SM에 특화된 팀입니다. 은행권 표준과 보안 가이드를 준수하며 
+                            요구정의–설계–개발–배포–운영(SM) 전 과정을 한 팀으로 수행합니다. 전자계약/전자근로, 
+                            내부관리, 시금고 등 실전 경험을 바탕으로 짧은 구축 주기와 안정적인 운영 체계를 제공합니다.
+                        </p>
+                        <div class="partners">
+                            <h3>주요 레퍼런스</h3>
+                            <div class="partner-grid">
+                                <div class="partner-item">농협은행</div>
+                                <div class="partner-item">우리은행</div>
+                                <div class="partner-item">기업은행</div>
+                                <div class="partner-item">지자체 시금고</div>
+                            </div>
+                            <p class="partner-note">※ 상표/로고 사용은 파트너 정책을 준수합니다.</p>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="회사 소개">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 서비스 섹션 -->
+    <section id="services" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Services</h2>
+                <p class="section-subtitle">금융·공공 분야 전문 서비스</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="SI 구축">
+                    </div>
+                    <div class="service-content">
+                        <h3>SI(구축)</h3>
+                        <p>요구정의, 아키텍처/설계, 개발, 테스트, 배포 자동화, 데이터 마이그레이션을 
+                        체계적으로 수행하여 안정적인 시스템을 구축합니다.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="SM 운영">
+                    </div>
+                    <div class="service-content">
+                        <h3>SM(운영/유지보수)</h3>
+                        <p>모니터링, 장애/보안 대응, 성능 개선, 취약점 조치, 정기 점검, SLA 리포트로 
+                        24/7 안정적인 운영을 보장합니다.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="전자계약">
+                    </div>
+                    <div class="service-content">
+                        <h3>전자계약·전자근로</h3>
+                        <p>전자서명, 결재선, 보관/파기, 감사추적, 템플릿 관리를 통한 
+                        법적 효력과 보안성을 보장하는 디지털 문서 관리 시스템을 제공합니다.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="시금고">
+                    </div>
+                    <div class="service-content">
+                        <h3>시금고/공공 분야</h3>
+                        <p>계정/권한, 정산/보고, 로그/감사, 규정 준수를 통한 
+                        안정적이고 효율적인 자금 관리 시스템을 구축합니다.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="플랫폼 인프라">
+                    </div>
+                    <div class="service-content">
+                        <h3>플랫폼/인프라</h3>
+                        <p>클라우드/온프레미스, 컨테이너, 무중단 배포, DR/백업을 통한 
+                        고가용성과 확장성을 갖춘 인프라를 구축합니다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 차별점 섹션 -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>왜 이든웍스인가</h2>
+                <p class="section-subtitle">차별화된 전문성과 노하우</p>
+            </div>
+            <div class="expertise-grid">
+                <div class="expertise-item">
+                    <h4>은행권 표준/보안 준수</h4>
+                    <p>권한(RBAC), 개인정보 보호, 로그·감사, 배포/운영 절차를 내재화하여 
+                    금융권 표준을 완벽하게 준수합니다.</p>
+                </div>
+                <div class="expertise-item">
+                    <h4>문서화와 테스트</h4>
+                    <p>산출물/테스트/운영 문서가 연결되어 인수·확장이 쉬운 
+                    체계적인 문서화 시스템을 제공합니다.</p>
+                </div>
+                <div class="expertise-item">
+                    <h4>짧은 사이클</h4>
+                    <p>스프린트 기반의 단계별 납품으로 리스크를 초기에 제거하고 
+                    빠른 구축과 안정적인 운영을 보장합니다.</p>
+                </div>
+                <div class="expertise-item">
+                    <h4>운영 관점의 개발</h4>
+                    <p>모니터링/알림/장애 대응 Runbook을 개발 단계에서 설계하여 
+                    운영 친화적인 시스템을 구축합니다.</p>
+                </div>
+                <div class="expertise-item">
+                    <h4>한 팀 체계</h4>
+                    <p>PM–분석–개발–QA–운영이 동일 팀으로 일관되게 대응하여 
+                    효율적이고 안정적인 프로젝트 수행을 보장합니다.</p>
+                </div>
+                <div class="expertise-item">
+                    <h4>보안·품질 준수</h4>
+                    <p>접근통제/RBAC, 개인정보 암호화, 로그/감사, 취약점 진단을 통한 
+                    철저한 보안과 품질 관리를 제공합니다.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
-  <footer class="footer">
-    © 주식회사 이든웍스
-  </footer>
-<script>
 
-document.querySelectorAll('a[href^="#"]').forEach(a=>{
-  a.addEventListener('click',e=>{
-    const id=a.getAttribute('href').slice(1);
-    const el=document.getElementById(id);
-    if(el){ e.preventDefault(); window.scrollTo({top:el.offsetTop-90,behavior:'smooth'}); }
-  });
-});
-const anchors=[...document.querySelectorAll('.anchor-link')];
-const sections=anchors.map(a=>document.getElementById(a.getAttribute('href').slice(1)));
-function onScroll(){
-  const y=window.scrollY+120;
-  let active=0;
-  sections.forEach((s,i)=>{ if(s && s.offsetTop<=y) active=i; });
-  anchors.forEach((a,i)=>a.classList.toggle('active', i===active));
-}
-document.addEventListener('scroll',onScroll,{passive:true}); onScroll();
+    <!-- 문의 섹션 -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>문의하기</h2>
+                <p class="section-subtitle">프로젝트 논의가 필요하시면 간단히 요구사항을 알려주세요</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>연락처</h3>
+                    <p>금융·공공 SI/SM 프로젝트에 대한 상담을 제공합니다.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <strong>이메일:</strong> dev@eden-works.co.kr
+                        </div>
+                        <div class="contact-item">
+                            <strong>전화:</strong> 010-XXXX-XXXX
+                        </div>
+                        <div class="contact-item">
+                            <strong>운영시간:</strong> 평일 09:00 - 18:00
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">담당자명 *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="company">회사/기관명 *</label>
+                                <input type="text" id="company" name="company" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">이메일 *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">연락처</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">요구사항 *</label>
+                            <textarea id="message" name="message" rows="5" required 
+                                placeholder="프로젝트 요구사항이나 문의사항을 자세히 작성해 주세요."></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">문의하기</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
-</script>
+    <!-- 푸터 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="오름 이든웍스.png" alt="이든웍스 로고">
+                    <span>주식회사 이든웍스</span>
+                </div>
+                <div class="footer-info">
+                    <p>금융·공공 SI/SM 전문기업</p>
+                    <p>&copy; 2024 Eden Works. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // 문의 폼 제출 처리
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const formData = new FormData(this);
+            const data = Object.fromEntries(formData);
+            
+            // 실제 구현에서는 서버로 데이터를 전송
+            alert('문의가 접수되었습니다. 빠른 시일 내에 연락드리겠습니다.');
+            this.reset();
+        });
+
+        // 스무스 스크롤
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // 스크롤 애니메이션
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-in');
+                }
+            });
+        }, observerOptions);
+
+        // 애니메이션 대상 요소들
+        document.querySelectorAll('.service-card, .expertise-item, .process-item, .stat-item').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
 </body>
 </html>
